@@ -5,26 +5,26 @@
 class Rootwallet < Formula
   desc "RootWallet CLI — terminal wallet for EVM and Solana"
   homepage "https://rootwallet.io"
-  version "0.103.1"
+  version "0.103.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/DeBrosDAO/rootwallet/releases/download/v0.103.1/rootwallet_0.103.1_darwin-arm64.tar.gz"
-      sha256 "9f903c909a99134a1dcec8fa177cb6848e9ca07f7a3b95965e7aa1e0ff9bd1f8"
+      url "https://github.com/DeBrosDAO/rootwallet/releases/download/v0.103.3/rootwallet_0.103.3_darwin-arm64.tar.gz"
+      sha256 "38ebc6908bec1be75eeffe9a3209e73a5a27cd0d994896ca5c66d0da2e952d02"
     else
-      url "https://github.com/DeBrosDAO/rootwallet/releases/download/v0.103.1/rootwallet_0.103.1_darwin-amd64.tar.gz"
-      sha256 "f6f4d68ac8868a555b75ee1381f39fbe116af5964fbfa03a3e6abd72632e7023"
+      url "https://github.com/DeBrosDAO/rootwallet/releases/download/v0.103.3/rootwallet_0.103.3_darwin-amd64.tar.gz"
+      sha256 "f43d7cd4b5132284021a7b4eeaa76fe2a55600a3e9bc306b5459d1459935a408"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/DeBrosDAO/rootwallet/releases/download/v0.103.1/rootwallet_0.103.1_linux-arm64.tar.gz"
-      sha256 "4ef1e48ed30cce9dab6bec939974de42c84cdbe2d11f7b7f39b0dbacecd48368"
+      url "https://github.com/DeBrosDAO/rootwallet/releases/download/v0.103.3/rootwallet_0.103.3_linux-arm64.tar.gz"
+      sha256 "329e4d82c9f63555d7841edc1fd023050932b19ca484610cd60ee13febf4c25d"
     else
-      url "https://github.com/DeBrosDAO/rootwallet/releases/download/v0.103.1/rootwallet_0.103.1_linux-amd64.tar.gz"
-      sha256 "b4ab4f429a597c8254c48fa2a483077cb568b79c867848fbeeeecb097db39179"
+      url "https://github.com/DeBrosDAO/rootwallet/releases/download/v0.103.3/rootwallet_0.103.3_linux-amd64.tar.gz"
+      sha256 "67f5ef91afe3964eec947abe3e6a783f5e8c694f9eeee37229b9b5e3beb0650c"
     end
   end
 
