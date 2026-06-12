@@ -11,20 +11,20 @@ class Rootwallet < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/DeBrosDAO/rootwallet/releases/download/v0.103.4/rootwallet_0.103.4_darwin-arm64.tar.gz"
-      sha256 "b82c472b0ad6831d8036a9c41a4a9e49a55a6fca953833a9503f5e9e70d75df6"
+      sha256 "fa1dd6bfaed0ddfb2bdfcaa5c54a6d0e8b7d2d783c7a362df20d8be114da8f26"
     else
       url "https://github.com/DeBrosDAO/rootwallet/releases/download/v0.103.4/rootwallet_0.103.4_darwin-amd64.tar.gz"
-      sha256 "80422057f63d1891ee62c38b34b71f77e76a7335e9d30a8160f86eeab4b8ff18"
+      sha256 "731091ce5a93542af8215da7d36120c37ae2173237964426d2b3dfa7b7915041"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/DeBrosDAO/rootwallet/releases/download/v0.103.4/rootwallet_0.103.4_linux-arm64.tar.gz"
-      sha256 "7c57b5bb44a4d5c74be02484e3aa021e2098301ac9bf711c25633007e342a8db"
+      sha256 "df9c4a847efdbc43f3c0c0a59ac2ef3dcdc71816de46df591e1347fad363dab0"
     else
       url "https://github.com/DeBrosDAO/rootwallet/releases/download/v0.103.4/rootwallet_0.103.4_linux-amd64.tar.gz"
-      sha256 "a209bceea9b15bfe6fb91df55c36004ad5e7192961f4344b879dfa393159bd02"
+      sha256 "f343505f8a4010e5e04a8c4b06f99bc5d0baf826fef24082e6c325a5989abb1a"
     end
   end
 
