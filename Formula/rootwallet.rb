@@ -5,9 +5,9 @@
 class Rootwallet < Formula
   desc "RootWallet CLI — terminal wallet for EVM, Solana, Bitcoin, and ORAMA"
   homepage "https://rootwallet.io"
-  url "https://registry.npmjs.org/@debros/root-cli/-/root-cli-0.200.0.tgz"
-  sha256 "8d246297156bb436b4c770758ae1f370d5185dad000804cc95692874d7e4cf9f"
-  version "0.200.0"
+  url "https://registry.npmjs.org/@debros/root-cli/-/root-cli-0.200.1.tgz"
+  sha256 "eb4369936e6c8c39ce21cd368b2841bd83e809f93f322f7d439c4721b604595d"
+  version "0.200.1"
   license "AGPL-3.0-only"
 
   depends_on "node"
